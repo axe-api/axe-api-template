@@ -12,7 +12,7 @@
     "test:dev": "jest --watch"
   },
   "dependencies": {
-    "axe-api": "^0.13.1",
+    "axe-api": "^0.13.2",
     "sqlite3": "^5.0.2"
   },
   "devDependencies": {
