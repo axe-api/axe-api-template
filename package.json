@@ -1,6 +1,6 @@
 {
   "name": "axe-api-template",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "license": "MIT",
   "type": "module",
@@ -12,7 +12,7 @@
     "test:dev": "jest --watch"
   },
   "dependencies": {
-    "axe-api": "^0.13.2",
+    "axe-api": "^0.17.3",
     "sqlite3": "^5.0.2"
   },
   "devDependencies": {
