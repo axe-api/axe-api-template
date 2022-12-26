@@ -5,8 +5,7 @@ const onBeforeInit = async (app: Express) => {
     res.json({
       name: "AXE API",
       description: "The next generation Rest API framework.",
-      documentation:
-        "https://axe-api.github.io/getting-started/crud/index.html",
+      documentation: "https://axe-api.com/getting-started/crud/index.html",
     });
   });
 };
