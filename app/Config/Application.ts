@@ -7,6 +7,8 @@ const config: IApplicationConfig = {
   logLevel: LogLevels.INFO,
   transaction: [],
   serializers: [],
+  supportedLanguages: ["en"],
+  defaultLanguage: "en",
 };
 
 export default config;

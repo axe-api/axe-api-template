@@ -13,7 +13,7 @@
     "test:dev": "jest --watch"
   },
   "dependencies": {
-    "axe-api": "0.20.2"
+    "axe-api": "0.21.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.20.7",
