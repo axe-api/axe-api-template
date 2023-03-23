@@ -1,9 +1,10 @@
-import { LogLevels, IApplicationConfig } from "axe-api";
+import { LogLevels, IApplicationConfig, Frameworks } from "axe-api";
 
 const config: IApplicationConfig = {
   prefix: "api",
   env: process.env.NODE_ENV || "production",
   port: process.env.APP_PORT ? parseInt(process.env.APP_PORT) : 3000,
+  framework: Frameworks.Express,
   logLevel: LogLevels.INFO,
   database: {
     client: process.env.DB_CLIENT || "mysql",
