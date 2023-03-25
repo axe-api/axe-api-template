@@ -13,15 +13,7 @@
     "test:dev": "jest --watch"
   },
   "dependencies": {
-    "axe-api": "0.30.0-rc8",
-    "chalk": "^4.1.2",
-    "change-case": "^4.1.2",
-    "dotenv": "^16.0.3",
-    "knex": "^2.4.2",
-    "knex-paginate": "^3.1.0",
-    "knex-schema-inspector": "^3.0.1",
-    "pluralize": "^8.0.0",
-    "validatorjs": "^3.22.1"
+    "axe-api": "0.30.0-rc11"
   },
   "devDependencies": {
     "@babel/cli": "^7.20.7",
