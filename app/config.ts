@@ -1,4 +1,5 @@
 import { LogLevels, IApplicationConfig } from "axe-api";
+import path from "path";
 
 const config: IApplicationConfig = {
   prefix: "api",
@@ -12,7 +13,7 @@ const config: IApplicationConfig = {
       user: process.env.DB_USER || "user",
       password: process.env.DB_PASSWORD || "password",
       database: process.env.DB_DATABASE || "database",
-      filename: `${process.env.DB_DATABASE}.sqlite`,
+      filename: path.join(__dirname, "..", `${process.env.DB_DATABASE}.sqlite`), // For SQLite
     },
     searchPath: [process.env.DB_USER || "user", "public"],
     pool: {
