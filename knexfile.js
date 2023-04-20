@@ -8,6 +8,7 @@ module.exports = {
     user: process.env.DB_USER || "user",
     password: process.env.DB_PASSWORD || "password",
     database: process.env.DB_DATABASE || "database",
+    filename: `${process.env.DB_DATABASE}.sqlite` // For SQLite
   },
   pool: {
     min: 2,
