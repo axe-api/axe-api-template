@@ -1,7 +1,8 @@
-import { Express } from "express";
+import { Express, Request, Response } from "express";
+import ErrorHandler from "./Handlers/ErrorHandler.";
 
 const onBeforeInit = async (app: Express) => {
-  app.get("/", (req, res) => {
+  app.get("/", (req: Request, res: Response) => {
     res.json({
       name: "AXE API",
       description: "The next generation Rest API framework.",
@@ -10,6 +11,9 @@ const onBeforeInit = async (app: Express) => {
   });
 };
 
-const onAfterInit = async (app: Express) => {};
+const onAfterInit = async (app: Express) => {
+  // Set global error handler.
+  app.use(ErrorHandler);
+};
 
 export { onBeforeInit, onAfterInit };
