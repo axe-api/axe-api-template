@@ -1,5 +1,5 @@
 import { Express, Request, Response } from "express";
-import ErrorHandler from "./Handlers/ErrorHandler.";
+import ErrorHandler from "./Handlers/ErrorHandler";
 
 const onBeforeInit = async (app: Express) => {
   app.get("/", (req: Request, res: Response) => {
