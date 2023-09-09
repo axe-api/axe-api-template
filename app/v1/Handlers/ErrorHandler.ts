@@ -1,20 +1,29 @@
-import { Request, Response, NextFunction } from "express";
+import { IncomingMessage, ServerResponse } from "http";
+import { NextFunction } from "axe-api";
 import "dotenv/config";
 
-const ErrorHandler = (err: any, req: Request, res: Response, next: NextFunction) => {
-  const error = {
+const ErrorHandler = (
+  err: any,
+  req: IncomingMessage,
+  res: ServerResponse,
+  next: NextFunction
+) => {
+  let error = {
     ...err,
     message: err.message,
     date: Date.now(),
   };
 
-  if(process.env.NODE_ENV === 'production' ) {
-    return res.status(500).send({
-      message: 'An error occurred!'
-    });
+  if (process.env.NODE_ENV === "production") {
+    error = {
+      message: "An error occurred!",
+    };
   }
 
-  res.status(500).send(error);
-}
+  res.statusCode = 500;
+  res.write(JSON.stringify(error));
+  res.end();
+  next();
+};
 
 export default ErrorHandler;
