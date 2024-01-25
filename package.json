@@ -23,7 +23,7 @@
     "@babel/core": "^7.23.9",
     "@babel/node": "^7.22.19",
     "@babel/preset-env": "^7.23.8",
-    "@babel/runtime": "^7.23.8",
+    "@babel/runtime": "^7.23.9",
     "@tsconfig/recommended": "^1.0.3",
     "@types/cors": "^2.8.17",
     "@types/ioredis": "^5.0.0",
