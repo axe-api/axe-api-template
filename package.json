@@ -13,7 +13,7 @@
     "test:dev": "jest --watch"
   },
   "dependencies": {
-    "@elastic/elasticsearch": "^8.11.0",
+    "@elastic/elasticsearch": "^8.12.1",
     "axe-api": "1.0.10",
     "formidable": "^3.5.1",
     "mysql": "^2.18.1"
