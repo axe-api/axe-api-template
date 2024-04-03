@@ -24,7 +24,7 @@
     "@babel/core": "^7.24.0",
     "@babel/node": "^7.23.9",
     "@babel/preset-env": "^7.24.0",
-    "@babel/runtime": "^7.24.0",
+    "@babel/runtime": "^7.24.4",
     "@tsconfig/recommended": "^1.0.3",
     "@types/cors": "^2.8.17",
     "@types/ioredis": "^5.0.0",
