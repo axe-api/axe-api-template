@@ -50,6 +50,6 @@
     "redis": "^4.6.13",
     "set-value": "^4.1.0",
     "sqlite3": "^5.1.7",
-    "typescript": "^5.4.4"
+    "typescript": "^5.4.5"
   }
 }
