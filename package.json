@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@elastic/elasticsearch": "^8.13.1",
-    "axe-api": "1.3.0",
+    "axe-api": "1.4.1",
     "formidable": "^3.5.1",
     "mysql": "^2.18.1",
     "robust-validator": "^1.1.0"
