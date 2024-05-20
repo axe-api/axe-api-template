@@ -20,7 +20,7 @@
     "robust-validator": "^1.1.0"
   },
   "devDependencies": {
-    "tsx": "^4.7.2",
+    "tsx": "^4.10.5",
     "@babel/cli": "^7.24.1",
     "@babel/core": "^7.24.4",
     "@babel/node": "^7.23.9",
