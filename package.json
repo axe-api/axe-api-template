@@ -22,7 +22,7 @@
   "devDependencies": {
     "tsx": "^4.7.2",
     "@babel/cli": "^7.24.1",
-    "@babel/core": "^7.24.4",
+    "@babel/core": "^7.24.9",
     "@babel/node": "^7.23.9",
     "@babel/preset-env": "^7.24.4",
     "@babel/runtime": "^7.24.4",
